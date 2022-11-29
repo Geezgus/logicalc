@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logicalc</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input
+      type="text"
+      name="infix-input"
+      id="infix-input"
+      placeholder="(tRf)ANf"
+    />
+
+    <div id="grid">
+      <button id="btn-or">&vee;</button>
+      <button id="btn-and">&wedge;</button>
+      <button id="btn-not">&not;</button>
+
+      <button id="btn-open">(</button>
+      <button id="btn-if">&DoubleRightArrow;</button>
+      <button id="btn-iff">&DoubleLeftRightArrow;</button>
+
+      <button id="btn-close">)</button>
+      <button id="btn-true">V</button>
+      <button id="btn-false">F</button>
+
+      <button id="btn-erase">&#x232B;</button>
+      <button id="btn-calculate">OK</button>
+    </div>
+
+    <script src="Postfixer.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
